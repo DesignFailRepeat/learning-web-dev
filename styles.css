@@ -5,3 +5,9 @@ body {
 h1 {
     background-color: purple;
 }
+
+.title_shades {
+    color:blue;
+    background-image:url(images/ASTHROS\ -\ high-altitude-balloon-1041.jpg);
+    box-shadow: 5px 5px 5px 5px black;
+}
