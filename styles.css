@@ -11,3 +11,30 @@ h1 {
     background-image:url(images/ASTHROS\ -\ high-altitude-balloon-1041.jpg);
     box-shadow: 5px 5px 5px 5px black;
 }
+
+#header_logo {
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    position: fixed;
+    left: 25%;
+    border-radius: 50%;
+    background: linear-gradient(
+        45deg,
+        #ccffff,
+        #ffcccc);
+    animation-name: movement;
+    animation-duration: 5s;
+}
+
+@keyframes movement{
+    0% {
+        left: 25px;
+    }
+    50% {
+        left: 100px;
+    }
+    100% {
+        left: 200px;
+    }
+}

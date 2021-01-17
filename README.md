@@ -13,7 +13,7 @@ I'll be documenting potential designs and ideas here in list form as my skills p
 
 ## Issues
 
-```
+```text
 # codeblock testing
 # reporting issues with feature implementation here
     Nothing to report at this moment.
