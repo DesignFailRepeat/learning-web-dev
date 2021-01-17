@@ -22,3 +22,5 @@ I'll be documenting potential designs and ideas here in list form as my skills p
 Status Update Logging
 **20210102:** *Learning how to use Github repositories to version control my progress. Using Git Bash was yielding an access error, not allowing me to push my commits to Github.*
 **20210112:** *Implementing a basic layout of the website. A few design ideas are in mind. Learning how to properly manage versions of my journey.*
+**20210117:** *Cleaned up the header section of the html file and modified the header text with shadowing. Englarged the image. Need to modify the image so that it's in the background of the header text.*
+**Next Date Here:**

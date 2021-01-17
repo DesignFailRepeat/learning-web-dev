@@ -1,23 +1,32 @@
 body {
-    background-color: aquamarine;
+    background-color: white;
 }
 
 h1 {
-    background-color: purple;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    background-color: white;
 }
 
-.title_shades {
-    color:blue;
+.header_shadow {
+    text-shadow: 3px 3px 3px gray;
+}
+
+.header_img {
+    width: auto;
+    height: 500px;
     background-image:url(images/ASTHROS\ -\ high-altitude-balloon-1041.jpg);
-    box-shadow: 5px 5px 5px 5px black;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
 }
 
 #header_logo {
     width: 100px;
     height: 100px;
-    margin: 50px auto;
-    position: fixed;
-    left: 25%;
+    margin: auto;
+    position: sticky;
     border-radius: 50%;
     background: linear-gradient(
         45deg,
@@ -29,12 +38,12 @@ h1 {
 
 @keyframes movement{
     0% {
-        left: 25px;
+        left: 0px;
     }
     50% {
-        left: 100px;
+        left: 50%;
     }
     100% {
-        left: 200px;
+        left: 100%;
     }
 }
